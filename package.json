@@ -1,0 +1,19 @@
+{
+  "name": "clearwater-labs-website",
+  "version": "1.0.0",
+  "description": "Public website for Clearwater Labs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clearwater-labs/website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clearwater-labs/website/issues"
+  },
+  "homepage": "https://github.com/clearwater-labs/website#readme"
+}
