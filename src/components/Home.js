@@ -3,8 +3,13 @@ import NewsArticles from './NewsArticles'
 
 class Home extends Component {
   render() {
-    console.log(this.props.history)
-    return <div />
+    return (
+      <div className="content-wrapper">
+        <div>
+          <h2>Empowering Students to Innovate</h2>
+        </div>
+      </div>
+    )
   }
 }
 

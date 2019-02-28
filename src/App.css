@@ -29,3 +29,9 @@ img {
   width: 150px;
   margin: 0px 40px;
 }
+
+.content {
+  width: 100%;
+  background-color: #eeeeee;
+  height: 25%;
+}
