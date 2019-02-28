@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Home from './components/Home'
+import Layout from './components/Layout'
 import './App.css'
 
 class Routes extends Component {
@@ -16,9 +17,11 @@ class Routes extends Component {
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
-        <Routes />
-      </BrowserRouter>
+      <Layout>
+        <BrowserRouter>
+          <Routes />
+        </BrowserRouter>
+      </Layout>
     )
   }
 }

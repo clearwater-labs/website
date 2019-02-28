@@ -3,11 +3,8 @@ import NewsArticles from './NewsArticles'
 
 class Home extends Component {
   render() {
-    return (
-      <div>
-        <NewsArticles />
-      </div>
-    )
+    console.log(this.props.history)
+    return <div />
   }
 }
 
