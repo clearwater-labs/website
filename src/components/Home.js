@@ -1,8 +1,13 @@
 import React, { Component } from 'react'
+import NewsArticles from './NewsArticles'
 
 class Home extends Component {
   render() {
-    return <div />
+    return (
+      <div>
+        <NewsArticles />
+      </div>
+    )
   }
 }
 
