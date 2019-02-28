@@ -4,23 +4,23 @@ import Home from './components/Home'
 import './App.css'
 
 class Routes extends Component {
-    render() {
-        return (
-            <Switch>
-                <Route path="/" exact component={Home} />
-            </Switch>
-        )
-    }
+  render() {
+    return (
+      <Switch>
+        <Route path="/" exact component={Home} />
+      </Switch>
+    )
+  }
 }
 
 class App extends Component {
-    render() {
-        return (
-            <BrowserRouter>
-                <Routes />
-            </BrowserRouter>
-        )
-    }
+  render() {
+    return (
+      <BrowserRouter>
+        <Routes />
+      </BrowserRouter>
+    )
+  }
 }
 
 export default App

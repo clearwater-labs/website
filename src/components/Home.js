@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 
 class Home extends Component {
-    render() {
-        return <h1>Website</h1>
-    }
+  render() {
+    return <div />
+  }
 }
 
 export default Home
